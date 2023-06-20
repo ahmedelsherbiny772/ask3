@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#0c458a;
+}
+html{
+    scroll-behavior:smooth;
+}
+header{
+    background-image: url(../images/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 170px;
+}
+nav{
+    border-bottom:solid 3px #d7e5ee;
+    background-color: wheat;
+}
+h1{
+    color: var(--main-color);
+}
+a i{
+    color: var(--main-color);
+}
+a i:hover{
+    color: white;
+}
+.navbar-nav a{
+    color:var(--main-color) ;
+    font-size: 20px;
+}
+.navbar-nav a:hover{
+    color:white ;
+}
+.row p{
+    color:var(--main-color) 
+}
+
+
+section div h3{
+font-size:50px;
+}
+
+    footer{
+        background-color: wheat;
+    }
